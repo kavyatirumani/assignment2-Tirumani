@@ -46,5 +46,51 @@ People from other nations are getting attracted towards India to achieve peace o
  > "I’ve learned that people will forget what you said, people will forget what you did, but people will never forget how you made them feel.", ***Maya Angelou***
 
 
+# Algorithm on Dynamic programming
+
+Dynamic Programming (DP) is an algorithmic technique for solving an optimization problem by breaking it down into simpler subproblems and utilizing the fact that the optimal solution to the overall problem depends upon the optimal solution to its subproblems.
+
+source link for definition - <https://www.educative.io/courses/grokking-dynamic-programming-patterns-for-coding-interviews/m2G1pAq0OO0>
+
+```
+
+int m, n;
+vector<long long> dp_before(n), dp_cur(n);
+
+long long C(int i, int j);
+
+// compute dp_cur[l], ... dp_cur[r] (inclusive)
+void compute(int l, int r, int optl, int optr) {
+    if (l > r)
+        return;
+
+    int mid = (l + r) >> 1;
+    pair<long long, int> best = {LLONG_MAX, -1};
+
+    for (int k = optl; k <= min(mid, optr); k++) {
+        best = min(best, {(k ? dp_before[k - 1] : 0) + C(k, mid), k});
+    }
+
+    dp_cur[mid] = best.first;
+    int opt = best.second;
+
+    compute(l, mid - 1, optl, opt);
+    compute(mid + 1, r, opt, optr);
+}
+
+int solve() {
+    for (int i = 0; i < n; i++)
+        dp_before[i] = C(0, i);
+
+    for (int i = 1; i < m; i++) {
+        compute(0, n - 1, 0, n - 1);
+        dp_before = dp_cur;
+    }
+
+    return dp_before[n - 1];
+}
+
+```
 
 
+source link for code - <https://cp-algorithms.com/dynamic_programming/divide-and-conquer-dp.html>
