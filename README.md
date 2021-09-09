@@ -41,6 +41,9 @@ People from other nations are getting attracted towards India to achieve peace o
   |        Chicken Pizza            |          Pizza Hut         | $21     |
   |        Chicken Sausage pizza    |          Dominos           | $33     |
 
+# Quotes by the greatest people 
+| > “The moment you give up, is the moment you let someone else win.”, ***Kobe Bryant***
+| > "I’ve learned that people will forget what you said, people will forget what you did, but people will never forget how you made them feel.", ***Maya Angelou***
 
 
 
