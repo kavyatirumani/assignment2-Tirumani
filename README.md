@@ -10,12 +10,12 @@ People from other nations are getting attracted towards India to achieve peace o
 # Direction for travelling from maryville to India
 1. Book a cab from maryville to kansas airport 
 2. Finish the check-in process through online
-    1.Finish the security check.
-    2. Board your flight.
-    3. Waiting for the connecting Flight in chicago.
-3.O'Hare International Airport to indira gandhi International Airport.
-    1.Complete the check-out process in Delhi.
-    2.Book a Cab ticket to Delhi.
+   1.Finish the security check.
+   2. Board your flight.
+   3. Waiting for the connecting Flight in chicago.
+3. O'Hare International Airport to indira gandhi International Airport.
+   1.Complete the check-out process in Delhi.
+   2.Book a Cab ticket to Delhi.
 4. from Delhi to india gateway place.
 
 * costume 
