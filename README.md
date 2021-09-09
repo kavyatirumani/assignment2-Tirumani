@@ -28,5 +28,20 @@ People from other nations are getting attracted towards India to achieve peace o
 
   [aboutme](AboutMe.md)
 
+  ---
+
+  # Table Creation 
+
+  The above table recommends some of my best food and drinks I experienced till now 
+
+  |         Food/drink              |           Location         |   Price |
+  |         ----                    |           ----             |  ----   |
+  |        Mc. Burger               |           Mc.D             | $9      |
+  |        Veg Sandwich             |           Mc.D             | $18     |
+  |        Chicken Pizza            |          Pizza Hut         | $21     |
+  |        Chicken Sausage pizza    |          Dominos           | $33     |
+
+
+
 
 
